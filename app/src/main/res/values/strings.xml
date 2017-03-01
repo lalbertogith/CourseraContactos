@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Gestión de Contactos</string>
+
+    <string name="nombre_apellidos">Nombre y Apellidos</string>
+    <string name="fecha">Fecha de Nacimiento</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripción</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="editar">Editar datos</string>
+</resources>

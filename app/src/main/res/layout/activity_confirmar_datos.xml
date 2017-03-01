@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_confirmar_datos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.k2tic.courseracontactos.ConfirmarDatosActivity">
+
+    <TextView
+        android:text="@string/nombre_apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/textView4"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:id="@+id/contactoNombre" />
+
+    <TextView
+        android:text="@string/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactoNombre"
+        android:id="@+id/textView6"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:id="@+id/contactoFecha" />
+
+    <TextView
+        android:text="@string/telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactoFecha"
+        android:id="@+id/textView8"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:id="@+id/contactoTelefono" />
+
+    <TextView
+        android:text="@string/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactoTelefono"
+        android:id="@+id/textView10"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:id="@+id/contactoEmail" />
+
+    <TextView
+        android:text="@string/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactoEmail"
+        android:id="@+id/textView12"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:id="@+id/contactoDescripcion" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="@string/editar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/btnEditar"
+            android:theme="@style/BotonPersonalizado"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
